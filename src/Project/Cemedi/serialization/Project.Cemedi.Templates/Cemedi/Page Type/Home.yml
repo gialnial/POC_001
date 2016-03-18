@@ -1,0 +1,35 @@
+﻿---
+ID: 98c6d7a5-6ce4-49c1-957e-e58e0723b06d
+Parent: 57cac9ed-3b77-4c64-ade2-f7495622e186
+Template: ab86861a-6030-46c5-b394-e8f99e8b87db
+Path: /sitecore/templates/Project/Cemedi/Page Type/Home
+DB: master
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  Hint: __Icon
+  Value: Network/32x32/home.png
+- ID: 12c33f3f-86c5-43a5-aeb4-5598cec45116
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {D88CCD80-D851-470D-AF11-701FF23504E7}
+    {F9F4FC05-98D0-4C62-860F-F08AE7F0EE25}
+    {A1CBA309-D22B-46D5-80F8-2972C185363F}
+    {BDD24F35-05E8-4466-8798-7D3DD6A6C991}
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 0
+- ID: f7d48a55-2158-4f02-9356-756654404f73
+  Hint: __Standard values
+  Value: {35A03F74-C494-45C1-B74A-162B29A375BB}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20141119T151509
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin

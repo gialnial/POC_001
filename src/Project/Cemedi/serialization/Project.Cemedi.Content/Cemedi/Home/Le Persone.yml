@@ -1,0 +1,86 @@
+﻿---
+ID: 080c1f98-52f2-4ace-a816-73485b16883b
+Parent: 5ca8ba6b-7e92-479d-9411-224d0de90028
+Template: 8ee208f9-a6a6-41e2-88a0-c188737a178c
+Path: /sitecore/content/Cemedi/Home/Le Persone
+DB: master
+SharedFields:
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 75
+- ID: f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s" p:p="1">
+      <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r uid="{CB939FD2-DD83-4E59-8BCE-3A141510CB9E}" s:id="{E04D897C-B487-4EE0-B3D1-8144B317E74A}" s:ph="footer" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 04bf00db-f5fb-41f7-8ab7-22408372a981
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s" p:p="1">
+          <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r uid="{9C24F503-1602-479D-BD00-69BB73AF8801}" p:before="r[@uid='{A6FB83C5-0507-4B84-9517-C0EA88A32E06}']" s:ds="{6BE20E88-8393-4A85-807A-6738346C9CEE}" s:id="{69B9C355-004B-4268-BB1E-2F725B8752B7}" s:ph="/footer/left-header-top" />
+            <r uid="{A6FB83C5-0507-4B84-9517-C0EA88A32E06}" p:before="r[@uid='{5191DC9D-FB15-4E63-B0BB-B181E15AA0C1}']" s:ds="{B4CBD39C-737E-47DB-80B0-0372B40FF374}" s:id="{69B9C355-004B-4268-BB1E-2F725B8752B7}" s:ph="/footer/right-header-top" />
+            <r uid="{5191DC9D-FB15-4E63-B0BB-B181E15AA0C1}" p:before="r[@uid='{8C7BEF2F-EF10-4BF2-8215-F25CC4E8E7E3}']" s:ds="{A693E456-8D8B-4BDC-95A6-CFCD6801E8E7}" s:id="{F49C9252-47F3-406B-B311-E26EE4D1149B}" s:ph="/header-top/left-header-top" />
+            <r uid="{8C7BEF2F-EF10-4BF2-8215-F25CC4E8E7E3}" p:before="r[@uid='{91FD4598-7F35-4F6E-9F0C-360F9767E057}']" s:ds="{5A0D54A7-A987-4095-A287-B09D62D16908}" s:id="{69B9C355-004B-4268-BB1E-2F725B8752B7}" s:ph="/header-top/right-header-top" />
+            <r uid="{91FD4598-7F35-4F6E-9F0C-360F9767E057}" p:before="r[@uid='{4CDA8294-49CE-400D-87C2-143D553566A0}']" s:id="{914673DC-FC44-4660-B6EB-FF421FAAC2F9}" s:ph="/page-layout/col-wide-1_aec20039-bbc0-4893-93a3-8d9d2f8bc949" />
+            <r uid="{4CDA8294-49CE-400D-87C2-143D553566A0}" p:before="r[@uid='{B38FD715-E6D3-4ACF-BB73-E03CDEB7EA2D}']" s:ds="{287A789B-D2AA-468D-9526-3D80406C8321}" s:id="{E47303E0-90FD-4E81-B2B5-CA4E8C1C36B4}" s:ph="/page-layout/col-wide-1_aec20039-bbc0-4893-93a3-8d9d2f8bc949" />
+            <r uid="{B38FD715-E6D3-4ACF-BB73-E03CDEB7EA2D}" p:before="r[@uid='{E6CA18D8-321D-4105-9C38-0622E94BE400}']" s:ds="{BD6D4B04-C313-4C8F-AF4B-45D564F3207A}" s:id="{3F7AD288-FA57-441F-AD79-CA60DC0C0A8D}" s:ph="/page-layout/col-narrow-1_aec20039-bbc0-4893-93a3-8d9d2f8bc949" />
+            <r uid="{AEC20039-BBC0-4893-93A3-8D9D2F8BC949}" p:before="r[@uid='{20E3883C-C16D-41D7-B5D3-C4AC60D8386D}']" s:id="{EADA94FA-315F-4DF2-AC49-13346DFDAF12}" s:ph="page-layout" />
+            <r uid="{A3CA17FF-693C-46F1-87AA-B8C1833F1890}">
+              <p:d />
+            </r>
+            <r uid="{70730EA2-2312-4B89-8764-74C3376427BC}" p:before="r[@uid='{BB1DCF77-DA7B-4DAE-A4D0-CDCA0ED4252B}']" s:ds="{B4CBD39C-737E-47DB-80B0-0372B40FF374}" s:id="{69B9C355-004B-4268-BB1E-2F725B8752B7}" s:ph="/footer/postfooter" />
+            <r uid="{A4AD2DA4-136E-466A-BC85-F02C9205869D}">
+              <p:d />
+            </r>
+            <r uid="{66422117-69C1-4B62-9323-482F16C4F244}" p:before="*[1=2]" />
+          </d>
+        </r>
+    - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
+      Hint: NavigationTitle
+      Value: Le Persone
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20160312T220812Z
+    - ID: 9492e0bb-9df9-46e7-8188-ec795c4ade44
+      Hint: Image
+      Value: "<image mediaid=\"{88032F9C-B464-44CB-B76D-513D60B9C127}\" ></image>"
+    - ID: c30a013f-3cc8-4961-9837-1c483277084a
+      Hint: Title
+      Value: Le Persone
+    - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
+      Hint: BrowserTitle
+      Value: Le Persone
+    - ID: d74f396d-5c5e-4916-bd0a-bfd58b6b1967
+      Hint: Body
+      Value: |
+        <p style="color: #23394f; margin-bottom: 10px; padding: 0px; border: 0px; background: #ffffff;">Lo staff tecnico/sanitario di cui si avvale il Centro è composto dalla Dott.ssa Bianca Carnino, responsabile del Laboratorio Analisi, dalla Dott.ssa Immacolata De Filippis che si occupa della gestione sanitaria del Centro nonchè del coordinamento delle Sale Mediche di FCA e CNH Industrial, dalla Sig.ra Maria Rita Brusa Responsabile delle Relazioni con il Pubblico ed infine dal Direttore Sanitaro, Dott. Sergio Caramalli, che gestisce il coordinamento del personale medico che opera presso la Struttura.<br>
+         </p>
+        <p style="color: #23394f; margin-bottom: 10px; padding: 0px; border: 0px; background: #ffffff;">Lo staff operativo del Ce.Me.Di in Corso Massimo d’Azeglio, 25 Torino è composto da:</p>
+        <p style="color: #23394f; margin-bottom: 10px; padding: 0px; border: 0px; background: #ffffff;">. 20 amministrativi<br>
+        . 168 medici + 10 medicina dello sport<br>
+        . 8 infermieri<br>
+        . 4 tecnici radiologi<br>
+        . 3 tecnici audiometristi</p>
+        <p style="color: #23394f; margin-bottom: 10px; padding: 0px; border: 0px; background: #ffffff;">Laboratorio <br>
+        . 1 direttore tecnico<br>
+        . 2 biologi<br>
+        . 5 tecnici di laboratorio<br>
+        . 2 medici di laboratorio<br>
+        . 10 medici prelevatori a rotazione</p>
+        <p style="color: #23394f; margin-bottom: 10px; padding: 0px; border: 0px; background: #ffffff;">Fisioterapia – Via Olivero, 40 – Torino<br>
+        . 1 direttore tecnico<br>
+        . 1 infermiera<br>
+        . 6 fisioterapisti</p>
+        <p style="color: #23394f; margin-bottom: 10px; padding: 0px; border: 0px; background: #ffffff;">   <br>
+        Si tratta di personale esperto e qualificato nelle diverse discipline mediche e sanitarie.</p>

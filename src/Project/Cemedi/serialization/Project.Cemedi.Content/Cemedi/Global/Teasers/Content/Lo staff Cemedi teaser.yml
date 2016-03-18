@@ -1,0 +1,27 @@
+﻿---
+ID: 287a789b-d2aa-468d-9526-3d80406c8321
+Parent: 398b6d3c-1645-457f-94f6-8f2346bc1768
+Template: c7d9d293-4ef8-4380-8e10-c4632e729f39
+Path: /sitecore/content/Cemedi/Global/Teasers/Content/Lo staff Cemedi teaser
+DB: master
+SharedFields:
+- ID: e8ab122c-6f54-4d4e-aec6-f81addc558fc
+  Hint: TeaserLink
+  Value: "<link linktype=\"internal\" text=\"Scopri chi siamo\" querystring=\"\" target=\"\" id=\"{BD6D4B04-C313-4C8F-AF4B-45D564F3207A}\" />"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 0f6b5546-e0ab-4487-81de-640c1aa1b65b
+      Hint: TeaserImage
+      Value: "<image mediaid=\"{A4768E8D-69EF-47B6-B477-90729E501A87}\" />"
+    - ID: 13d97a52-7c4e-407c-960d-fadde8a3c1b1
+      Hint: TeaserSummary
+      Value: Scopri chi siamo
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151209T024709Z
+    - ID: 4a59d072-5b41-4a79-a157-2b2ccac10f2b
+      Hint: TeaserTitle
+      Value: Lo staff Ce.Me.Di

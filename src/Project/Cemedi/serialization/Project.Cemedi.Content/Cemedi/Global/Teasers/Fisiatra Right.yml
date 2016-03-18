@@ -1,0 +1,26 @@
+﻿---
+ID: adb2c004-509e-44e8-83c3-e2f0b272d8bf
+Parent: 2d33719e-7f97-4d92-90f5-6674392c53d9
+Template: c7d9d293-4ef8-4380-8e10-c4632e729f39
+Path: /sitecore/content/Cemedi/Global/Teasers/Fisiatra Right
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 0f6b5546-e0ab-4487-81de-640c1aa1b65b
+      Hint: TeaserImage
+      Value: "<image mediaid=\"{7F72C5FE-ED39-4C8F-AA7D-B7A78E86E3CF}\" />"
+    - ID: 13d97a52-7c4e-407c-960d-fadde8a3c1b1
+      Hint: TeaserSummary
+      Value: |
+        Rita Brero 
+        Chiara Dellacà
+        
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20160318T164710Z
+    - ID: 4a59d072-5b41-4a79-a157-2b2ccac10f2b
+      Hint: TeaserTitle
+      Value: Staff di fisioterapia

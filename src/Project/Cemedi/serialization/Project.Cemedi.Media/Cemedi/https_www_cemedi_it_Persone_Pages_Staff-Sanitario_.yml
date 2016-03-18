@@ -1,0 +1,17 @@
+﻿---
+ID: ec80f5f3-7a50-4c4a-a044-b6c3305bf3f0
+Parent: 4bc22660-d7c9-4bb3-b00e-b08fac4ac964
+Template: fe5dd826-48c6-436d-b87a-7c4210c7413b
+Path: /sitecore/media library/Cemedi/https_www_cemedi_it_Persone_Pages_Staff-Sanitario_aspx
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20160316T084029Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin

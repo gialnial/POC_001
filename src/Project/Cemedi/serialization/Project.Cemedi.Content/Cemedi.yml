@@ -1,0 +1,27 @@
+﻿---
+ID: d788240b-d218-4d8b-b81c-7aa83cc8f23b
+Parent: 0de95ae4-41ab-4d01-9eb0-67441b7c2450
+Template: c09b0c56-d582-43b6-b54d-0da91c048b05
+Path: /sitecore/content/Cemedi
+DB: master
+SharedFields:
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 235ae392-97ac-4822-be38-837da3e7724e
+      Hint: SiteBrowserTitle
+      Value: Cemedi
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20160311T153736Z
+    - ID: b8027200-aab0-4876-b454-dbb85add9e3c
+      Hint: HostName
+      Value: cemedi.habitat.local
+    - ID: f07811d3-41e9-440a-9d81-310c1d78bed6
+      Hint: Title
+      Value: Cemedi Home page

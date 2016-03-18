@@ -1,0 +1,23 @@
+﻿---
+ID: 35be2c05-0705-4354-9fcc-f99d7a851ba2
+Parent: a863e476-3a24-4943-ba1b-270e077c66e6
+Template: c82dc5ff-09ef-4403-96d3-3caf377b8c5b
+Path: /sitecore/content/Cemedi/Settings/jumbotronteaser
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20160202T170825Z
+    - ID: 498dd5b6-7dae-44a7-9213-1d32596ad14f
+      Hint: DatasourceTemplate
+      Value: /sitecore/templates/Project/Common/Content Types/Teasers/Teaser
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: 5fe1cc43-f86c-459c-a379-cd75950d85af
+      Hint: DatasourceLocation
+      Value: /sitecore/content/Cemedi/Global/Teasers

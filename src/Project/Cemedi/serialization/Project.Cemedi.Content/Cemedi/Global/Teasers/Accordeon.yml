@@ -1,0 +1,20 @@
+﻿---
+ID: c1919d4a-898b-4052-a983-4b16d16b3284
+Parent: 2d33719e-7f97-4d92-90f5-6674392c53d9
+Template: f5f30cdc-9003-4015-84ec-c3a7e3e50d5e
+Path: /sitecore/content/Cemedi/Global/Teasers/Accordeon
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20150903T121817Z
+    - ID: 9e942565-677f-491c-a0ac-6b930e37342a
+      Hint: AccordeonSelector
+      Type: Treelist
+      Value: |
+        {EF593C2A-F3F8-421A-9368-0E189A689DBD}
+        {6086F621-4A0E-4724-9D6F-EA7BA8139F57}

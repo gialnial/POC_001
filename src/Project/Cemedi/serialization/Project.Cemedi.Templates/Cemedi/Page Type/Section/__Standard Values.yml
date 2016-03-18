@@ -1,0 +1,60 @@
+﻿---
+ID: dad129b0-f29a-4ad9-af6f-e7301eb5591f
+Parent: 0cf018db-d9ec-44ba-af52-dcdae87694ab
+Template: 0cf018db-d9ec-44ba-af52-dcdae87694ab
+Path: /sitecore/templates/Project/Cemedi/Page Type/Section/__Standard Values
+DB: master
+SharedFields:
+- ID: 1172f251-dad4-4efb-a329-0c63500e4f1e
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {94A8C8E9-690B-4E65-98E7-F95800222767}
+    {8EE208F9-A6A6-41E2-88A0-C188737A178C}
+    {A99866E5-08E7-44D8-8A52-F8E26BCD3714}
+    {8FF3D369-A508-4D2F-84A5-9B6C6BF5E537}
+    {467C2144-4454-4518-B1DE-E31B4CBBFF33}
+    {E39E0C0B-9732-49D0-84AE-63FEF5A73CC2}
+- ID: f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{8F297BF2-E0DF-4D3D-954C-70D13063923D}">
+        <r id="{E7AE3F87-CF66-40F2-A9F5-33ECF08BC777}" ph="head" uid="{E6CA18D8-321D-4105-9C38-0622E94BE400}" />
+        <r id="{E26A158B-FA1E-4E9B-8622-E4458243FF46}" ph="navbar" uid="{07C9FE71-A5E2-4E5F-B276-5F2B73481D44}" />
+        <r id="{53B085DB-6824-4941-9F28-9011CB151832}" ph="navbar-center" uid="{FBDB4313-35B5-4C26-A586-17F48FD2DC41}" />
+        <r id="{8832BA30-99C3-4D20-9B1C-237D910A153F}" ph="navbar-right" uid="{75551DEC-A457-43A3-B76F-91742B5DDE93}" />
+        <r ds="{9AA07D42-E9B5-4B52-A0E2-4FDF08C203EE}" id="{8C3A2CFC-18FB-4BF5-8584-50EA88978ED6}" ph="navbar-activity" uid="{9C8A45F2-7008-42C1-8B8A-80A88825C1D8}" />
+        <r id="{26B33DEB-F1DB-4338-B043-AAF2F90E04A3}" par="Type=bg-dark" ph="page-layout" uid="{1DF746C3-2D29-43E6-9DE2-05622DED6F97}" />
+        <r id="{E6BA23C6-08F7-43D0-BE00-BB2129D6F288}" ph="page-header" uid="{20E3883C-C16D-41D7-B5D3-C4AC60D8386D}" />
+        <r id="{45B8E1D9-D522-49E0-B9B7-04C965CC7089}" ph="page-header" uid="{3CDF4DD8-28A4-4185-8C09-A73CAA4633F7}" />
+        <r id="{D201A487-5099-48A1-8189-55944F70C6CB}" par="UseStaticPlaceholderNames=1" ph="page-layout" uid="{A3CA17FF-693C-46F1-87AA-B8C1833F1890}" />
+        <r id="{0AD8EC59-33EC-4103-AAD4-F3A49BFDB92C}" par="UseStaticPlaceholderNames=1" ph="/page-layout/section" uid="{66422117-69C1-4B62-9323-482F16C4F244}" />
+        <r id="{84924ABF-F983-4AF5-9002-EA0237A53DA9}" ph="/page-layout/section/col-huge" uid="{A4AD2DA4-136E-466A-BC85-F02C9205869D}" />
+        <r id="{E04D897C-B487-4EE0-B3D1-8144B317E74A}" ph="header-top" uid="{BB1DCF77-DA7B-4DAE-A4D0-CDCA0ED4252B}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
+      Hint: NavigationTitle
+      Value: $name
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20150824T175451Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: 9492e0bb-9df9-46e7-8188-ec795c4ade44
+      Hint: Image
+      Value: "<image mediaid=\"{88032F9C-B464-44CB-B76D-513D60B9C127}\" />"
+    - ID: c30a013f-3cc8-4961-9837-1c483277084a
+      Hint: Title
+      Value: $name
+    - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
+      Hint: BrowserTitle
+      Value: $name

@@ -1,0 +1,79 @@
+﻿---
+ID: 5ca8ba6b-7e92-479d-9411-224d0de90028
+Parent: d788240b-d218-4d8b-b81c-7aa83cc8f23b
+Template: 98c6d7a5-6ce4-49c1-957e-e58e0723b06d
+Path: /sitecore/content/Cemedi/Home
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 04bf00db-f5fb-41f7-8ab7-22408372a981
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s" p:p="1">
+          <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r uid="{EF51B238-7CE2-4E39-AB87-D05424735160}" p:before="r[@uid='{F963AA98-4957-45B5-95CD-B61C242063E1}']" s:id="{3389CAFC-000C-41E5-921C-92821B3DB7B5}" s:ph="head" />
+            <r uid="{05FFB7B4-377C-4C00-9520-0ED7735CADCA}">
+              <p:d />
+            </r>
+            <r uid="{79242576-4E0A-4CBF-BC2B-8B0C47FE9B64}" p:before="r[@uid='{9C8A45F2-7008-42C1-8B8A-80A88825C1D8}']" s:id="{28BD7068-7FF6-4CE6-98E6-85CFE9967E14}" s:ph="navbar-activity" />
+            <r uid="{9C8A45F2-7008-42C1-8B8A-80A88825C1D8}" p:before="r[@uid='{1DF746C3-2D29-43E6-9DE2-05622DED6F97}']" s:ds="{9AA07D42-E9B5-4B52-A0E2-4FDF08C203EE}" s:id="{8C3A2CFC-18FB-4BF5-8584-50EA88978ED6}" s:ph="navbar-activity" />
+            <r uid="{025588CB-DFC0-4B02-8223-0015C525AE52}">
+              <p:d />
+            </r>
+            <r uid="{A1AC1D8A-E47C-4766-8D0F-89BB3BBC9A81}" s:id="{24D6D94B-FF87-4A6C-9AA0-4CBF21488C05}" s:ph="page-sidebar" />
+            <r uid="{0E0C6DCA-1A29-4975-84D7-E99498A64A72}">
+              <p:d />
+            </r>
+            <r uid="{0E0C6DCA-1A29-4975-84D7-E99498A64A72}">
+              <p:d />
+            </r>
+            <r uid="{47F5A079-6F63-4219-BC45-1A221B200906}">
+              <p:d />
+            </r>
+            <r uid="{84124EE2-E678-4144-8316-0D6874866604}">
+              <p:d />
+            </r>
+          </d>
+        </r>
+    - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
+      Hint: NavigationTitle
+      Value: Home
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20160311T212753Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+  - Version: 2
+    Fields:
+    - ID: 04bf00db-f5fb-41f7-8ab7-22408372a981
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s" p:p="1">
+          <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r uid="{A85893F9-5DF5-4C28-AC0F-67AD85D29661}" s:ds="{080C1F98-52F2-4ACE-A816-73485B16883B}" />
+            <r uid="{3CDF4DD8-28A4-4185-8C09-A73CAA4633F7}">
+              <p:d />
+            </r>
+            <r uid="{565F9960-4E47-4DA4-9406-0A29DD09911F}">
+              <p:d />
+            </r>
+          </d>
+        </r>
+    - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
+      Hint: NavigationTitle
+      Value: Home
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20160317T130505Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: c8f93afe-bfd4-4e8f-9c61-152559854661
+      Hint: __Valid from
+      Value: 20160317T130505Z

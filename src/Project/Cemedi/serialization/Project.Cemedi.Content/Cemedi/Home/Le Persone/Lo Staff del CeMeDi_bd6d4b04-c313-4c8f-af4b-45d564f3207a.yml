@@ -1,0 +1,43 @@
+﻿---
+ID: bd6d4b04-c313-4c8f-af4b-45d564f3207a
+Parent: 080c1f98-52f2-4ace-a816-73485b16883b
+Template: 94a8c8e9-690b-4e65-98e7-f95800222767
+Path: /sitecore/content/Cemedi/Home/Le Persone/Lo Staff del CeMeDi
+DB: master
+SharedFields:
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 81
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 04bf00db-f5fb-41f7-8ab7-22408372a981
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s" p:p="1">
+          <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r uid="{0738B7AC-583C-4FD1-AF4B-A55B221F94EA}" p:before="r[@uid='{E745B8EC-AF84-4974-8EA8-32768265F3C7}']" s:id="{84924ABF-F983-4AF5-9002-EA0237A53DA9}" s:ph="/page-layout/section/col-wide-1_fcc1472b-2626-4beb-b2aa-7a56a4a4ea1e" />
+            <r uid="{E745B8EC-AF84-4974-8EA8-32768265F3C7}" p:before="r[@uid='{FCC1472B-2626-4BEB-B2AA-7A56A4A4EA1E}']" s:id="{3F7AD288-FA57-441F-AD79-CA60DC0C0A8D}" s:ph="/page-layout/section/col-narrow-1_fcc1472b-2626-4beb-b2aa-7a56a4a4ea1e" />
+            <r uid="{FCC1472B-2626-4BEB-B2AA-7A56A4A4EA1E}" p:before="r[@uid='{3920F078-5022-458F-9412-05C8C4E2CABD}']" s:id="{EADA94FA-315F-4DF2-AC49-13346DFDAF12}" s:ph="/page-layout/section" />
+            <r uid="{3920F078-5022-458F-9412-05C8C4E2CABD}" p:before="r[@uid='{15794D23-7FDF-4481-A139-B1AA56A6001F}']" s:ds="{5CA8BA6B-7E92-479D-9411-224D0DE90028}" s:id="{84924ABF-F983-4AF5-9002-EA0237A53DA9}" s:ph="/page-layout/section-narrow/col-wide-1_15794d23-7fdf-4481-a139-b1aa56a6001f" />
+            <r uid="{15794D23-7FDF-4481-A139-B1AA56A6001F}" p:before="r[@uid='{E6CA18D8-321D-4105-9C38-0622E94BE400}']" s:id="{03112E88-1499-4132-9D5F-E213AFD2019C}" s:ph="/page-layout/section-narrow" />
+            <r uid="{66422117-69C1-4B62-9323-482F16C4F244}">
+              <p:d />
+            </r>
+          </d>
+        </r>
+    - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
+      Hint: NavigationTitle
+      Value: Lo Staff del Ce.Me.Di.
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20160315T140041Z
+    - ID: c30a013f-3cc8-4961-9837-1c483277084a
+      Hint: Title
+      Value: Lo Staff del CeMeDi
+    - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
+      Hint: BrowserTitle
+      Value: Lo Staff del Ce.Me.Di.

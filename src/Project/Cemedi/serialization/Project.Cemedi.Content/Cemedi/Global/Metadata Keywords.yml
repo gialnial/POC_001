@@ -1,0 +1,14 @@
+﻿---
+ID: 796f21cf-f928-4606-8b90-940c68bc74d4
+Parent: 0586fe73-3c82-4299-9707-2c2a10e16614
+Template: cd047791-c29a-4596-aeee-db5e70421c1f
+Path: /sitecore/content/Cemedi/Global/Metadata Keywords
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20160113T155509Z

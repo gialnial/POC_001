@@ -1,0 +1,24 @@
+﻿---
+ID: 45e96f9f-3473-4004-a9b8-ba637213fa76
+Parent: 2d33719e-7f97-4d92-90f5-6674392c53d9
+Template: c7d9d293-4ef8-4380-8e10-c4632e729f39
+Path: /sitecore/content/Cemedi/Global/Teasers/Lo staff Sanitario
+DB: master
+SharedFields:
+- ID: e8ab122c-6f54-4d4e-aec6-f81addc558fc
+  Hint: TeaserLink
+  Value: "<link linktype=\"internal\" text=\"scopri chi siamo\" querystring=\"\" target=\"\" id=\"{30E3323E-68EB-48EC-AFC5-B8DDDA76A89D}\" />"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 0f6b5546-e0ab-4487-81de-640c1aa1b65b
+      Hint: TeaserImage
+      Value: "<image mediaid=\"{1A343846-3F0D-424F-97E7-83697BE66B0A}\" />"
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20160318T115158Z
+    - ID: 4a59d072-5b41-4a79-a157-2b2ccac10f2b
+      Hint: TeaserTitle
+      Value: lo staff sanitario

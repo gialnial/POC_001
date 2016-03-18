@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{E57AF963-2157-4BEC-8C7F-70768C8A3A9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Project.Cemedi", "src\Project\Cemedi\code\Sitecore.Project.Cemedi.csproj", "{8DF45BF5-74E9-4C3E-9B3D-56D44DFF62BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cemedi", "Cemedi", "{54811E96-9BB8-4243-9294-2816EBFB5489}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DF45BF5-74E9-4C3E-9B3D-56D44DFF62BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DF45BF5-74E9-4C3E-9B3D-56D44DFF62BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DF45BF5-74E9-4C3E-9B3D-56D44DFF62BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DF45BF5-74E9-4C3E-9B3D-56D44DFF62BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8DF45BF5-74E9-4C3E-9B3D-56D44DFF62BF} = {54811E96-9BB8-4243-9294-2816EBFB5489}
+		{54811E96-9BB8-4243-9294-2816EBFB5489} = {E57AF963-2157-4BEC-8C7F-70768C8A3A9B}
+	EndGlobalSection
+EndGlobal

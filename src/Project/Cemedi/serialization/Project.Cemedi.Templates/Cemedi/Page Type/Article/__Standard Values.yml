@@ -1,0 +1,60 @@
+﻿---
+ID: d5830167-eac2-415e-8c95-250ffc9bf445
+Parent: 94a8c8e9-690b-4e65-98e7-f95800222767
+Template: 94a8c8e9-690b-4e65-98e7-f95800222767
+Path: /sitecore/templates/Project/Cemedi/Page Type/Article/__Standard Values
+DB: master
+SharedFields:
+- ID: 1172f251-dad4-4efb-a329-0c63500e4f1e
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {94A8C8E9-690B-4E65-98E7-F95800222767}
+    {8FF3D369-A508-4D2F-84A5-9B6C6BF5E537}
+- ID: f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{8F297BF2-E0DF-4D3D-954C-70D13063923D}">
+        <r id="{E7AE3F87-CF66-40F2-A9F5-33ECF08BC777}" ph="head" uid="{E6CA18D8-321D-4105-9C38-0622E94BE400}" />
+        <r id="{E26A158B-FA1E-4E9B-8622-E4458243FF46}" ph="navbar" uid="{07C9FE71-A5E2-4E5F-B276-5F2B73481D44}" />
+        <r id="{53B085DB-6824-4941-9F28-9011CB151832}" ph="navbar-center" uid="{FBDB4313-35B5-4C26-A586-17F48FD2DC41}" />
+        <r id="{8832BA30-99C3-4D20-9B1C-237D910A153F}" ph="navbar-right" uid="{75551DEC-A457-43A3-B76F-91742B5DDE93}" />
+        <r ds="{9AA07D42-E9B5-4B52-A0E2-4FDF08C203EE}" id="{8C3A2CFC-18FB-4BF5-8584-50EA88978ED6}" ph="navbar-activity" uid="{9C8A45F2-7008-42C1-8B8A-80A88825C1D8}" />
+        <r id="{E6BA23C6-08F7-43D0-BE00-BB2129D6F288}" ph="page-header" uid="{20E3883C-C16D-41D7-B5D3-C4AC60D8386D}" />
+        <r id="{EADA94FA-315F-4DF2-AC49-13346DFDAF12}" par="UseStaticPlaceholderNames=1" ph="page-layout" uid="{66422117-69C1-4B62-9323-482F16C4F244}" />
+        <r id="{3F7AD288-FA57-441F-AD79-CA60DC0C0A8D}" ph="/page-layout/col-narrow-1" uid="{A85893F9-5DF5-4C28-AC0F-67AD85D29661}" />
+        <r id="{695CEE74-D8F4-481D-B813-237050809290}" ph="/page-layout/col-wide-1" uid="{3CDF4DD8-28A4-4185-8C09-A73CAA4633F7}" />
+        <r id="{914673DC-FC44-4660-B6EB-FF421FAAC2F9}" ph="/page-layout/col-wide-1" uid="{565F9960-4E47-4DA4-9406-0A29DD09911F}" />
+        <r id="{E04D897C-B487-4EE0-B3D1-8144B317E74A}" ph="header-top" uid="{A83AA3F4-100F-4922-877C-3055B80033B2}" />
+        <r ds="{443EE250-BFA6-454E-AD4F-2EFBFE060100}" id="{F49C9252-47F3-406B-B311-E26EE4D1149B}" par="" ph="/header-top/left-header-top" uid="{E895A279-E811-46BD-8828-6549A3AA7BC2}" />
+        <r ds="{5A0D54A7-A987-4095-A287-B09D62D16908}" id="{69B9C355-004B-4268-BB1E-2F725B8752B7}" par="" ph="/header-top/right-header-top" uid="{78F3534B-33B6-4B78-84D5-131FC2717B2D}" />
+        <r ds="" id="{6F3B6CA0-6EEF-4892-882C-3F2E5B808A51}" par="ContainerIsFluid&amp;UseStaticPlaceholderNames" ph="footer" uid="{3E657D8C-80DF-48A5-9742-22F1BD94579D}" />
+        <r ds="{B4CBD39C-737E-47DB-80B0-0372B40FF374}" id="{69B9C355-004B-4268-BB1E-2F725B8752B7}" par="" ph="/footer/rightfooter" uid="{0E2EBC6C-1796-4A68-95DA-9C94E5450009}" />
+        <r ds="{6BE20E88-8393-4A85-807A-6738346C9CEE}" id="{69B9C355-004B-4268-BB1E-2F725B8752B7}" par="" ph="/footer/leftfooter" uid="{33C714E3-21C7-429B-B91A-DFBC8675554F}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
+      Hint: NavigationTitle
+      Value: $name
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20150824T175451Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: 9492e0bb-9df9-46e7-8188-ec795c4ade44
+      Hint: Image
+      Value: "<image mediaid=\"{88032F9C-B464-44CB-B76D-513D60B9C127}\" />"
+    - ID: c30a013f-3cc8-4961-9837-1c483277084a
+      Hint: Title
+      Value: $name
+    - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
+      Hint: BrowserTitle
+      Value: $name

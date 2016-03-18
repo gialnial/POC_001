@@ -1,0 +1,21 @@
+﻿---
+ID: cca6158b-b1f6-4aef-b969-057788fa9fbe
+Parent: b4cbd39c-737e-47db-80b0-0372b40ff374
+Template: 390333c8-751b-4332-84a3-6360b969a19f
+Path: /sitecore/content/Cemedi/Global/Links/Footer Menu/Right/Site Map
+DB: master
+SharedFields:
+- ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
+  Hint: __Sortorder
+  Value: 50
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
+      Hint: NavigationTitle
+      Value: Site Map
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20160317T084459Z

@@ -1,0 +1,16 @@
+﻿@using Sitecore
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@model Sitecore.Mvc.Presentation.RenderingModel
+<div class="footer-bottom">
+	<div class="container">
+        <div class="row">
+            <div class="col-md-6 hidden-xs">
+                @Html.Sitecore().Placeholder("leftfooter")
+            </div>
+            <div class="col-md-6 hidden-xs">
+                @Html.Sitecore().Placeholder("rightfooter")
+            </div>
+        </div>
+		
+	</div>
+</div>

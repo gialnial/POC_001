@@ -1,0 +1,17 @@
+﻿---
+ID: 85f392ac-9d78-415a-97be-4cf17d8b533e
+Parent: 398b6d3c-1645-457f-94f6-8f2346bc1768
+Template: c7d9d293-4ef8-4380-8e10-c4632e729f39
+Path: /sitecore/content/Cemedi/Global/Teasers/Content/Example Divider
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151210T020806Z
+    - ID: 4a59d072-5b41-4a79-a157-2b2ccac10f2b
+      Hint: TeaserTitle
+      Value: Examples:

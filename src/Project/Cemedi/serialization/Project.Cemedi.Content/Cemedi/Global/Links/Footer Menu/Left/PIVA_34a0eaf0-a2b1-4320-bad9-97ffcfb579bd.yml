@@ -1,0 +1,17 @@
+﻿---
+ID: 34a0eaf0-a2b1-4320-bad9-97ffcfb579bd
+Parent: 6be20e88-8393-4a85-807a-6738346c9cee
+Template: 390333c8-751b-4332-84a3-6360b969a19f
+Path: /sitecore/content/Cemedi/Global/Links/Footer Menu/Left/PIVA
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
+      Hint: NavigationTitle
+      Value: P.IVA 02255730018
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20160318T075720Z

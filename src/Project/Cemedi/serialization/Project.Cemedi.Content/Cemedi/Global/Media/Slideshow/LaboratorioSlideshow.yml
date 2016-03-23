@@ -1,0 +1,24 @@
+﻿---
+ID: 4cd0e44b-403b-4b9e-b4db-e7adc87ae938
+Parent: 15ea36d1-ef9f-429b-be66-d727e7723cfc
+Template: c18d3794-d126-4548-bfc8-89358de6e9c1
+Path: /sitecore/content/Cemedi/Global/Media/Slideshow/LaboratorioSlideshow
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20160323T102315Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: 72ea8682-24d2-4beb-951c-3e2164974105
+      Hint: MediaSelector
+      Type: Multilist
+      Value: |
+        {127E6751-16A5-48FC-A6B6-7631BD84B01D}
+        {E13A3D23-A32F-4AE9-8188-B84A3A73BA3A}
+        {8F1C4C20-4610-4214-9400-B940DB64B34F}

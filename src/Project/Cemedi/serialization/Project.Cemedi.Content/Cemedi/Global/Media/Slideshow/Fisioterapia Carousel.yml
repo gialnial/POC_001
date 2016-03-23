@@ -1,0 +1,24 @@
+﻿---
+ID: 862ea582-4bbb-48fa-804e-d8e7c223b7ab
+Parent: 15ea36d1-ef9f-429b-be66-d727e7723cfc
+Template: c18d3794-d126-4548-bfc8-89358de6e9c1
+Path: /sitecore/content/Cemedi/Global/Media/Slideshow/Fisioterapia Carousel
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20160318T165654Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin
+    - ID: 72ea8682-24d2-4beb-951c-3e2164974105
+      Hint: MediaSelector
+      Type: Multilist
+      Value: |
+        {D50E9E2A-C3C9-4B08-A43D-9A4E3195C529}
+        {AEDBD581-334B-4776-B6BF-4C3F616224BF}
+        {06908BF4-C955-40B9-9D45-5CDC7B1F79DD}

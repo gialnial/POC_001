@@ -1,0 +1,20 @@
+﻿---
+ID: 8f1c4c20-4610-4214-9400-b940db64b34f
+Parent: 0762bcc2-b9ad-4361-bfba-30f693126770
+Template: f0369e1a-9030-4a05-a09c-ef09b664ed27
+Path: /sitecore/content/Cemedi/Global/Media/Slideshow/Laboratorio media/Lab_photo 3
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20160323T102532Z
+    - ID: 63dda48b-b0cb-45a7-9a1b-b26ddb41009b
+      Hint: MediaTitle
+      Value: Laboratorio 3
+    - ID: 9f51dead-ad6e-41c2-9759-7be17eb474a4
+      Hint: MediaImage
+      Value: "<image mediaid=\"{7B13EF6C-9AF3-43C5-8763-FAC707E4D2CB}\" />"

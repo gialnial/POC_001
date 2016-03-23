@@ -1,0 +1,20 @@
+﻿---
+ID: 3f2c48f9-7acb-4994-8ffb-3a4ef1392580
+Parent: 2d33719e-7f97-4d92-90f5-6674392c53d9
+Template: c7d9d293-4ef8-4380-8e10-c4632e729f39
+Path: /sitecore/content/Cemedi/Global/Teasers/Direttore cemedi
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 0f6b5546-e0ab-4487-81de-640c1aa1b65b
+      Hint: TeaserImage
+      Value: "<image mediaid=\"{A0FBA432-8907-49C8-A3FB-C11A691189BB}\" />"
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20160323T102938Z
+    - ID: 4a59d072-5b41-4a79-a157-2b2ccac10f2b
+      Hint: TeaserTitle
+      Value: Sergio Caramalli

@@ -1,0 +1,42 @@
+﻿@using Sitecore.Feature.Doctor
+@using Sitecore.Foundation.Alerts
+@using Sitecore.Foundation.Alerts.Extensions
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Foundation.SitecoreExtensions.Repositories
+@model Sitecore.Foundation.SitecoreExtensions.Rendering.QueryableDatasourceRenderingModel
+
+@if (Model?.Items == null || !Model.Items.All(i => i.IsDerived(Templates.Doctor.ID)))
+{
+  @Html.PageEditorError(AlertTexts.InvalidDataSourceTemplate(Templates.Doctor.ID), AlertTexts.InvalidDataSourceTemplateFriendlyMessage, Model.Item?.ID, Model.Rendering.Item?.ID)
+  return;
+}
+
+<ul class="block-grid-md-4 block-grid-sm-3 block-grid-xs-1">
+  @foreach (var item in Model.Items)
+  {
+    <li>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <a href="@item.Url()">
+            @Html.Sitecore().ImageField(Templates.Doctor.Fields.Picture, item, mw: 750, cssClass: "img-responsive")
+          </a>
+        </div>
+        <div class="panel-body text-center">
+          <label>@item.Field(Templates.Doctor.Fields.Title)</label>
+          <h4>
+            @item.Field(Templates.Doctor.Fields.Name)
+          </h4>
+          <p>
+            @item.Field(Templates.Doctor.Fields.Summary)
+          </p>
+        </div>
+        <div class="panel-footer text-center">
+          <a href="@item.Url()" class="btn btn-default">
+            @DictionaryRepository.Get("/Doctor/DoctorList/Read more", "Read more")
+          </a>
+        </div>
+      </div>
+
+    </li>
+  }
+</ul>

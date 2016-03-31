@@ -1,0 +1,29 @@
+﻿@using Sitecore.Feature.Doctor
+@using Sitecore.Foundation.Alerts
+@using Sitecore.Foundation.Alerts.Extensions
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Foundation.SitecoreExtensions.Repositories
+@model Sitecore.Mvc.Presentation.RenderingModel
+
+@if (!Model?.Item?.IsDerived(Templates.Doctor.ID) ?? true)
+{
+  @Html.PageEditorError(AlertTexts.InvalidDataSourceTemplate(Templates.Doctor.ID), AlertTexts.InvalidDataSourceTemplateFriendlyMessage, Model.Item?.ID, Model.Rendering.Item?.ID)
+  return;
+}
+
+<div class="container">
+  @Html.Sitecore().ImageField(Templates.Person.Fields.Picture, Model.Item, mw: 300, cssClass: "img-responsive img-circle center-block")
+  <h1 class="text-center">
+    @Model.Item.Field(Templates.Doctor.Fields.Name)
+    <br>
+    <small>
+      <span class="label label-default">@Model.Item.Field(Templates.Doctor.Fields.Title)</span>
+    </small>
+    <br>
+    <small>
+      @Model.Item.Field(Templates.Doctor.Fields.Summary)
+    </small>
+  </h1>
+</div>
+
+

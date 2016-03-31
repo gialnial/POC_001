@@ -47,9 +47,13 @@ Languages:
   Versions:
   - Version: 1
     Fields:
-    - ID: 0cc9785e-54fe-4fae-93e4-d0d2ae75f339
-      Hint: Biography
-      Value: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris congue vulputate erat hendrerit tincidunt.
+    - ID: 0cfd2522-74ad-478c-818b-c3b339837b56
+      Hint: Summary
+      Value: |
+        Esperienze in Medicina Manuale (prof Maigne Hotel Dieu, Parigi)
+        Esperienze in Medicina Osteopatica (College de Provence, Marsiglia)
+        Riflessoterapia Agopunturale (Prof Barbiero, Padova)
+        Medico Ipnotista iscritto al C.I.I.S di Torino( dott. Regaldo, Torino)
     - ID: 0ee2f208-1fee-42fc-8051-6696d49a92bf
       Hint: OpenGraphTitle
       Value: $name
@@ -59,9 +63,32 @@ Languages:
     - ID: 25bed78c-4957-4165-998a-ca1b52f67497
       Hint: __Created
       Value: 20151124T110516Z
+    - ID: 3cadbb1a-e9c9-4eea-b9ed-3c2e0b25ddbb
+      Hint: Hospital
+      Value: |
+        Direttore Tecnico del centro riabilitativo di primo livello Area zenit (torino via Stellone 5)
+        Medico specialista ASL TO2
+    - ID: 41252090-9448-4be1-a45b-782ed1427e70
+      Hint: Activities
+      Value: |
+        Medico specialista Fisiatra presso ospedale di Susa e Avigliana fino al 2010
+        Responsabile del servizio ambulatoriale e domiciliare e dirigente medico della Fondazione Don Gnocchi di Torino dal 1997 a 2005
+        Assistente in formazione Medicina Fisica e Riabilitazione c/o Ospedale San Luigi di Orbassano fino al 1997 collaborazione con il Centro per i disordini del Movimento.
     - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
       Hint: __Created by
       Value: sitecore\admin
+    - ID: 8bf213fd-9ea2-4e8c-b191-a6678e3c3478
+      Hint: Specialist
+      Value: FISIATRIA
+    - ID: 9c9da77e-d4c9-4e99-a5cf-b3c2a71c3a05
+      Hint: Picture
+      Value: "<image mediaid=\"{DB926439-C849-4386-AF9B-0D67518AE046}\" />"
     - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
       Hint: BrowserTitle
       Value: $name
+    - ID: e2ac4158-1db0-47ca-96ad-c62515552bc3
+      Hint: Surname
+      Value: cognome
+    - ID: fd3fd49a-c19e-4d20-bb53-f7c452ed5388
+      Hint: Title
+      Value: Medico

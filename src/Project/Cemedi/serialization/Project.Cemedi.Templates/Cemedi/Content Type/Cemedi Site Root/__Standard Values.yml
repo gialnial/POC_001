@@ -1,16 +1,14 @@
 ﻿---
-ID: 467abe08-2a25-45e5-b10e-c40d71d8e776
-Parent: 8d48d3b1-2914-4505-a5c9-88e160a2599d
-Template: 8d48d3b1-2914-4505-a5c9-88e160a2599d
+ID: b6b6a5d4-e5b8-4064-89d1-862899286b4e
+Parent: c09b0c56-d582-43b6-b54d-0da91c048b05
+Template: c09b0c56-d582-43b6-b54d-0da91c048b05
 Path: /sitecore/templates/Project/Cemedi/Content Type/Cemedi Site Root/__Standard Values
 DB: master
 SharedFields:
 - ID: 1172f251-dad4-4efb-a329-0c63500e4f1e
   Hint: __Masters
   Type: TreelistEx
-  Value: |
-    {4A8822CC-B418-4452-AB0F-8BB6DF2F2114}
-    {4C82B6DD-FE7C-4144-BCB3-F21B4080568F}
+  Value: {98C6D7A5-6CE4-49C1-957E-E58E0723B06D}
 Languages:
 - Language: en
   Versions:

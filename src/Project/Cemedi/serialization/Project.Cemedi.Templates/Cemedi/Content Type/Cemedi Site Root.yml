@@ -1,5 +1,5 @@
 ﻿---
-ID: 8d48d3b1-2914-4505-a5c9-88e160a2599d
+ID: c09b0c56-d582-43b6-b54d-0da91c048b05
 Parent: b3eb5e13-ecf4-4c53-8932-5fc2ad4252a3
 Template: ab86861a-6030-46c5-b394-e8f99e8b87db
 Path: /sitecore/templates/Project/Cemedi/Content Type/Cemedi Site Root
@@ -17,10 +17,10 @@ SharedFields:
     {748EBA96-3F0C-4F45-8AFB-DE8DCC707B84}
 - ID: ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e
   Hint: __Sortorder
-  Value: 25
+  Value: 50
 - ID: f7d48a55-2158-4f02-9356-756654404f73
   Hint: __Standard values
-  Value: {467ABE08-2A25-45E5-B10E-C40D71D8E776}
+  Value: {B6B6A5D4-E5B8-4064-89D1-862899286B4E}
 Languages:
 - Language: en
   Versions:

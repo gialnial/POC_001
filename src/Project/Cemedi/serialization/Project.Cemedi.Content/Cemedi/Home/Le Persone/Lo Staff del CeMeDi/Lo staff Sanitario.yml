@@ -1,0 +1,36 @@
+﻿---
+ID: 30e3323e-68eb-48ec-afc5-b8ddda76a89d
+Parent: bd6d4b04-c313-4c8f-af4b-45d564f3207a
+Template: 94a8c8e9-690b-4e65-98e7-f95800222767
+Path: /sitecore/content/Cemedi/Home/Le Persone/Lo Staff del CeMeDi/Lo staff Sanitario
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 04bf00db-f5fb-41f7-8ab7-22408372a981
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s" p:p="1">
+          <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r uid="{AE7F8DF8-748A-41D7-A8C7-48BB5C58CB2D}" p:before="r[@uid='{C81985F8-010F-42C6-A99D-210A00EF03EE}']" s:ds="{7871CBE6-DD0F-4336-A902-09068B414290}" s:id="{E86BFEB1-F3FC-4E37-B693-A5550D6789EE}" s:ph="/page-layout/section-narrow/col-wide-1_c81985f8-010f-42c6-a99d-210a00ef03ee" />
+            <r uid="{C81985F8-010F-42C6-A99D-210A00EF03EE}" p:before="r[@uid='{E6CA18D8-321D-4105-9C38-0622E94BE400}']" s:id="{50F6052C-4FC2-4AA6-9399-FFC6055CF19F}" s:ph="/page-layout/section-narrow" />
+          </d>
+        </r>
+    - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
+      Hint: NavigationTitle
+      Value: Lo staff Sanitario
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20160318T115529Z
+    - ID: c30a013f-3cc8-4961-9837-1c483277084a
+      Hint: Title
+      Value: Lo staff Sanitario
+    - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
+      Hint: BrowserTitle
+      Value: Lo staff Sanitario
+    - ID: d74f396d-5c5e-4916-bd0a-bfd58b6b1967
+      Hint: Body
+      Value: "<span style=\"color: #23394f; background-color: #ffffff;\">L’ascolto, la disponibilità, il rispetto, la cortesia e l’educazione sono atteggiamenti qualificanti ed irrinunciabili nella relazione di ogni persona dello staff sanitario Ce.Me.Di. con i clienti.</span>"

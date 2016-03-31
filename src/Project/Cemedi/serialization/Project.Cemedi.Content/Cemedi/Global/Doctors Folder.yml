@@ -1,0 +1,23 @@
+﻿---
+ID: 31f5ad8e-eba3-4376-868d-6bb3c51e4db0
+Parent: 0586fe73-3c82-4299-9707-2c2a10e16614
+Template: 78c3d25b-2c8c-44c4-aac2-8fe3f5938b3b
+Path: /sitecore/content/Cemedi/Global/Doctors Folder
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
+      Hint: NavigationTitle
+      Value: New Doctors Folder
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20160330T160821Z
+    - ID: c30a013f-3cc8-4961-9837-1c483277084a
+      Hint: Title
+      Value: Doctors Folder
+    - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
+      Hint: BrowserTitle
+      Value: New Doctors Folder

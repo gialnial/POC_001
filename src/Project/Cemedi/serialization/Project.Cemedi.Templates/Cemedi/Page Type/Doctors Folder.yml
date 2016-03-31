@@ -1,0 +1,28 @@
+﻿---
+ID: 78c3d25b-2c8c-44c4-aac2-8fe3f5938b3b
+Parent: 57cac9ed-3b77-4c64-ade2-f7495622e186
+Template: ab86861a-6030-46c5-b394-e8f99e8b87db
+Path: /sitecore/templates/Project/Cemedi/Page Type/Doctors Folder
+DB: master
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  Hint: __Icon
+  Value: Network/16x16/id_card.png
+- ID: 12c33f3f-86c5-43a5-aeb4-5598cec45116
+  Hint: __Base template
+  Type: tree list
+  Value: {94A8C8E9-690B-4E65-98E7-F95800222767}
+- ID: f7d48a55-2158-4f02-9356-756654404f73
+  Hint: __Standard values
+  Value: {CE9C8D70-C411-48A2-840F-D9906BFE34C4}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151230T103335Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin

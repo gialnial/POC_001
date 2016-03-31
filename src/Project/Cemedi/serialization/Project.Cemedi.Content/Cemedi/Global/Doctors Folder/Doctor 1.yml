@@ -1,0 +1,26 @@
+﻿---
+ID: f0980fef-555e-4ed3-be02-a7ef741dfcb7
+Parent: 31f5ad8e-eba3-4376-868d-6bb3c51e4db0
+Template: a3e5eeea-c2df-40b8-b228-738c60194c6d
+Path: /sitecore/content/Cemedi/Global/Doctors Folder/Doctor 1
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 0ee2f208-1fee-42fc-8051-6696d49a92bf
+      Hint: OpenGraphTitle
+      Value: Doctor 1
+    - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
+      Hint: NavigationTitle
+      Value: Doctor 1
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20160331T073100Z
+    - ID: 8b3b608f-7585-4c4d-a1b3-5fb21a7fc5da
+      Hint: Name
+      Value: Doctor 1
+    - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
+      Hint: BrowserTitle
+      Value: Doctor 1

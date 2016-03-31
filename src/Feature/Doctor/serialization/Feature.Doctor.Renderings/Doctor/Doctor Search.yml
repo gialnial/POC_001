@@ -1,0 +1,18 @@
+﻿---
+ID: f8632066-8bb6-461d-8e2a-9e248fab0833
+Parent: 8f427a95-c831-41f8-b186-d1ac6b089b4f
+Template: 2a3e91a0-7987-44b5-ab34-35c2d9de83b9
+Path: /sitecore/layout/Renderings/Feature/Doctor/Doctor Search
+DB: master
+SharedFields:
+- ID: e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7
+  Hint: Controller
+  Value: /Views/Doctor/DoctorSearch.cshtml
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20160330T155644Z

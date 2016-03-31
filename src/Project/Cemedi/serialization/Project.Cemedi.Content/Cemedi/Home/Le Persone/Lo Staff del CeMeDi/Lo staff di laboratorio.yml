@@ -1,0 +1,39 @@
+﻿---
+ID: 9944b19b-03bf-451e-a726-846a882698d1
+Parent: bd6d4b04-c313-4c8f-af4b-45d564f3207a
+Template: 94a8c8e9-690b-4e65-98e7-f95800222767
+Path: /sitecore/content/Cemedi/Home/Le Persone/Lo Staff del CeMeDi/Lo staff di laboratorio
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 04bf00db-f5fb-41f7-8ab7-22408372a981
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s" p:p="1">
+          <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r uid="{A05A4312-6324-4590-B233-2D1026C9669B}" p:before="r[@uid='{531A71B4-1BC4-45A1-BFAE-F6A6A2A9C3E6}']" s:ds="{4CD0E44B-403B-4B9E-B4DB-E7ADC87AE938}" s:id="{4E541395-9332-4F1D-87F0-E7F4920C2036}" s:ph="/page-layout/section-narrow/col-wide-1_204df5cb-9a68-4484-9a5d-0e6bfbeaeb38" />
+            <r uid="{531A71B4-1BC4-45A1-BFAE-F6A6A2A9C3E6}" p:before="r[@uid='{3A0FA063-7D76-458E-A370-9FC941039422}']" s:ds="{CAD89974-1968-42D0-A2AB-C939BC51895C}" s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}" s:ph="/page-layout/section-narrow/col-wide-2_936121b3-9c7d-4bf9-9f44-76579268e476" />
+            <r uid="{3A0FA063-7D76-458E-A370-9FC941039422}" p:before="r[@uid='{936121B3-9C7D-4BF9-9F44-76579268E476}']" s:ds="{5DD3915B-D5E9-4809-9A7A-5F3209030981}" s:id="{FDFCD088-3C9E-49C4-97FF-2DDE5D339BA0}" s:ph="/page-layout/section-narrow/col-wide-1_936121b3-9c7d-4bf9-9f44-76579268e476" />
+            <r uid="{936121B3-9C7D-4BF9-9F44-76579268E476}" p:before="r[@uid='{204DF5CB-9A68-4484-9A5D-0E6BFBEAEB38}']" s:id="{50F6052C-4FC2-4AA6-9399-FFC6055CF19F}" s:ph="/page-layout/section-narrow" />
+            <r uid="{204DF5CB-9A68-4484-9A5D-0E6BFBEAEB38}" p:before="r[@uid='{E6CA18D8-321D-4105-9C38-0622E94BE400}']" s:id="{03112E88-1499-4132-9D5F-E213AFD2019C}" s:ph="/page-layout/section-narrow" />
+          </d>
+        </r>
+    - ID: 1b483e91-d8c4-4d19-ba03-462074b55936
+      Hint: NavigationTitle
+      Value: Lo staff di laboratorio
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20160315T140041Z
+    - ID: 9492e0bb-9df9-46e7-8188-ec795c4ade44
+      Hint: Image
+      Value: "<image mediaid=\"{1A343846-3F0D-424F-97E7-83697BE66B0A}\" />"
+    - ID: c30a013f-3cc8-4961-9837-1c483277084a
+      Hint: Title
+      Value: Lo staff di laboratorio
+    - ID: ca0479ce-0bfe-4522-83de-ba688b380a78
+      Hint: BrowserTitle
+      Value: Lo staff di laboratorio

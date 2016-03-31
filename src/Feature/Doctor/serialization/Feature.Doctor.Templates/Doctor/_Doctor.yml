@@ -1,0 +1,27 @@
+﻿---
+ID: 42c2f85b-deb8-4e7a-a7c7-2282f3979fd5
+Parent: cc2b41c9-5dd9-4b88-ae84-e593fe5d0a62
+Template: ab86861a-6030-46c5-b394-e8f99e8b87db
+Path: /sitecore/templates/Feature/Doctor/_Doctor
+DB: master
+SharedFields:
+- ID: 06d5295c-ed2f-4a54-9bf2-26228d113318
+  Hint: __Icon
+  Value: Applications/32x32/form_blue.png
+- ID: 12c33f3f-86c5-43a5-aeb4-5598cec45116
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+    {ECE23A9F-26E0-42E4-8201-5F51EE5C26DD}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: 25bed78c-4957-4165-998a-ca1b52f67497
+      Hint: __Created
+      Value: 20151124T095536Z
+    - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
+      Hint: __Created by
+      Value: sitecore\admin

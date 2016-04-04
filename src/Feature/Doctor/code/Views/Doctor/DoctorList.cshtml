@@ -1,13 +1,13 @@
-﻿@using Sitecore.Feature.Doctor
+﻿@using TemplatesDoctor = Sitecore.Feature.Doctor.Templates
 @using Sitecore.Foundation.Alerts
 @using Sitecore.Foundation.Alerts.Extensions
 @using Sitecore.Foundation.SitecoreExtensions.Extensions
 @using Sitecore.Foundation.SitecoreExtensions.Repositories
 @model Sitecore.Foundation.SitecoreExtensions.Rendering.QueryableDatasourceRenderingModel
 
-@if (Model?.Items == null || !Model.Items.All(i => i.IsDerived(Templates.Doctor.ID)))
+@if (Model?.Items == null || !Model.Items.All(i => i.IsDerived(TemplatesDoctor.Doctor.ID)))
 {
-  @Html.PageEditorError(AlertTexts.InvalidDataSourceTemplate(Templates.Doctor.ID), AlertTexts.InvalidDataSourceTemplateFriendlyMessage, Model.Item?.ID, Model.Rendering.Item?.ID)
+  @Html.PageEditorError(AlertTexts.InvalidDataSourceTemplate(TemplatesDoctor.Doctor.ID), AlertTexts.InvalidDataSourceTemplateFriendlyMessage, Model.Item?.ID, Model.Rendering.Item?.ID)
   return;
 }
 
@@ -18,16 +18,16 @@
       <div class="panel panel-default">
         <div class="panel-heading">
           <a href="@item.Url()">
-            @Html.Sitecore().ImageField(Templates.Doctor.Fields.Picture, item, mw: 750, cssClass: "img-responsive")
+            @Html.Sitecore().ImageField(TemplatesDoctor.Person.Fields.Picture, item, mw: 750, cssClass: "img-responsive")
           </a>
         </div>
         <div class="panel-body text-center">
-          <label>@item.Field(Templates.Doctor.Fields.Title)</label>
+          <label>@item.Field(TemplatesDoctor.Person.Fields.Title)</label>
           <h4>
-            @item.Field(Templates.Doctor.Fields.Name)
+            @item.Field(TemplatesDoctor.Person.Fields.Name)
           </h4>
           <p>
-            @item.Field(Templates.Doctor.Fields.Summary)
+            @item.Field(TemplatesDoctor.Person.Fields.Summary)
           </p>
         </div>
         <div class="panel-footer text-center">

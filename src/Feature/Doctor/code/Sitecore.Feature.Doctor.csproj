@@ -59,10 +59,12 @@
     <Reference Include="Sitecore.Foundation.Indexing, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\..\Users\algi\Desktop\Habitat\lib\Sitecore\Sitecore.Foundation.Indexing.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.Foundation.SitecoreExtensions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\..\Users\algi\Desktop\Habitat\lib\Sitecore\Sitecore.Foundation.SitecoreExtensions.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.Kernel, Version=8.1.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>

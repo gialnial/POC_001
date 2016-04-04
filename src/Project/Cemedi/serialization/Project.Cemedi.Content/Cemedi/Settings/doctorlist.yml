@@ -2,7 +2,7 @@
 ID: 6373a216-b23f-44e7-b13a-f1ffd8afaae6
 Parent: a863e476-3a24-4943-ba1b-270e077c66e6
 Template: c82dc5ff-09ef-4403-96d3-3caf377b8c5b
-Path: /sitecore/content/Cemedi/Settings/employeeslist
+Path: /sitecore/content/Cemedi/Settings/doctorlist
 DB: master
 Languages:
 - Language: en
@@ -14,10 +14,10 @@ Languages:
       Value: 20160111T132524Z
     - ID: 498dd5b6-7dae-44a7-9213-1d32596ad14f
       Hint: DatasourceTemplate
-      Value: /sitecore/templates/Feature/Person/_Employee
+      Value: 
     - ID: 5dd74568-4d4b-44c1-b513-0af5f4cda34f
       Hint: __Created by
       Value: sitecore\admin
     - ID: 5fe1cc43-f86c-459c-a379-cd75950d85af
       Hint: DatasourceLocation
-      Value: /sitecore/content/Habitat/Home/Modules/Feature/Person/Employees List
+      Value: /sitecore/content/Cemedi/Global/Doctors Folder

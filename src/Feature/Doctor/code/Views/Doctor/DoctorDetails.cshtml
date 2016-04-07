@@ -1,13 +1,138 @@
-﻿@using Sitecore.Feature.Doctor 
+﻿@using TemplatesDoctor = Sitecore.Feature.Doctor.Templates
 @using Sitecore.Foundation.Alerts
 @using Sitecore.Foundation.Alerts.Extensions
+@using System.Collections.Generic;
+@using System.Linq;
 @using Sitecore.Foundation.SitecoreExtensions.Extensions
 @model Sitecore.Mvc.Presentation.RenderingModel
 
-@if (!Model?.Item?.IsDerived(Templates.Doctor.ID) ?? true)
+@if (!Model?.Item?.IsDerived(TemplatesDoctor.Doctor.ID) ?? true)
 {
-  @Html.PageEditorError(AlertTexts.InvalidDataSourceTemplate(Templates.Doctor.ID), AlertTexts.InvalidDataSourceTemplateFriendlyMessage, Model.Item?.ID, Model.Rendering.Item?.ID)
+  @Html.PageEditorError(AlertTexts.InvalidDataSourceTemplate(TemplatesDoctor.Doctor.ID), AlertTexts.InvalidDataSourceTemplateFriendlyMessage, Model.Item?.ID, Model.Rendering.Item?.ID)
   return;
 }
 
-@Model.Item.Field(Templates.Doctor.Fields.Biography)
+
+<div class="wrapper">
+    <div class="block01">
+        <div class="container">
+            <div class="page_title bordTop">
+                <h1>
+                    Dott.
+                    @* Changed after migration *@
+                    @Model.Item.Field(TemplatesDoctor.Person.Fields.Name) @Model.Item.Field(TemplatesDoctor.Person.Fields.Surname)
+                </h1>
+            </div>
+
+            <div class="media">
+                @* Changed after migration *@
+                @Html.Sitecore().ImageField(TemplatesDoctor.Person.Fields.Picture, Model.Item, mw: 750, cssClass: "img-responsive")
+
+                <div class="bd">
+                    <p>
+                        <strong>Nome Cognome</strong><br>
+                        @Model.Item.Field(TemplatesDoctor.Person.Fields.Name)  @Model.Item.Field(TemplatesDoctor.Person.Fields.Surname)<br>
+                        <br>
+                        <strong>Specialità</strong><br>
+                        @Model.Item.Field(TemplatesDoctor.Doctor.Fields.Specialist)<br>
+                        <br>
+                    </p>
+                </div>
+            </div>
+
+            <div class="page_title">
+                &nbsp;&nbsp;&nbsp;
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+
+<!--ITEM BLOCCO VISITE CONTENITORE -->
+<p>
+    <div class="wrapper">
+        <div class="sepin-ico-scheda-dx">
+            <asp:Image runat="server" ID="imgIco09" />
+        </div>
+        <div class="block01">
+            <div class="container">
+                <div class="cell-title-celeste">
+                    ESPERIENZE PROFESSIONALI
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="wrapper">
+        <div class="block01">
+            <div class="container">
+                <div class="item-list-sub-Sepin wh70">
+                    <span>
+                        @Model.Item.Field(TemplatesDoctor.Doctor.Fields.Biography)
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</p>
+<!--FINE ITEM BLOCCO VISITE CONTENITORE -->
+<!--ITEM BLOCCO VISITE CONTENITORE -->
+<p>
+    <div class="wrapper">
+        <div class="sepin-ico-scheda-dx">
+            @*<asp:Image runat="server" ID="imgIco10" />*@
+        </div>
+        <div class="block01">
+            <div class="container">
+                <div class="cell-title-celeste">
+                    PRINCIPALI SETTORI DI ATTIVITA’
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="wrapper">
+        <div class="block01">
+            <div class="container">
+                <div class="item-list-sub-Sepin wh70">
+                    <span>
+                        @Model.Item.Field(TemplatesDoctor.Doctor.Fields.Activities)
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</p>
+<!--FINE ITEM BLOCCO VISITE CONTENITORE -->
+<!--ITEM BLOCCO VISITE CONTENITORE -->
+<p>
+    <div class="wrapper">
+        <div class="sepin-ico-scheda-dx">
+            @*<asp:Image runat="server" ID="imgIco09_2" />*@
+        </div>
+        <div class="block01">
+            <div class="container">
+                <div class="cell-title-celeste">
+                    EVENTUALE PRESENZA PRESSO OSPEDALI E/O CLINICHE
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="wrapper">
+        <div class="block01">
+            <div class="container">
+                <div class="item-list-sub-Sepin wh70">
+                    <span>
+                        @Model.Item.Field(TemplatesDoctor.Doctor.Fields.Hospital)
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</p>

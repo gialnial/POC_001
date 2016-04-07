@@ -1,0 +1,34 @@
+﻿@using TemplatesDoctor = Sitecore.Feature.Doctor.Templates
+@using Sitecore.Foundation.Alerts
+@using Sitecore.Foundation.Alerts.Extensions
+@using Sitecore.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Foundation.SitecoreExtensions.Repositories
+@model Sitecore.Foundation.SitecoreExtensions.Rendering.QueryableDatasourceRenderingModel
+
+
+<ul class="block-grid-md-4 block-grid-sm-3 block-grid-xs-1">
+  @foreach (var item in Model.Items)
+  {
+    <li>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <a href="@item.Url()">
+            @Html.Sitecore().ImageField(TemplatesDoctor.Person.Fields.Picture, item, mw: 750, cssClass: "img-responsive")
+          </a>
+        </div>
+        <div class="panel-body text-center">
+          <label>@item.Field(TemplatesDoctor.Person.Fields.Title) @item.Field(TemplatesDoctor.Doctor.Fields.Specialist)</label>
+          <h4>
+            @item.Field(TemplatesDoctor.Person.Fields.Name)  @item.Field(TemplatesDoctor.Person.Fields.Surname)
+          </h4>
+        </div>
+        <div class="panel-footer text-center">
+          <a href="@item.Url()" class="btn btn-default">
+            @DictionaryRepository.Get("/Doctor/DoctorList/Read more", "Read more")
+          </a>
+        </div>
+      </div>
+
+    </li>
+  }
+</ul>

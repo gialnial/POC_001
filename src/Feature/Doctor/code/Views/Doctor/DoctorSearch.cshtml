@@ -1,29 +1,73 @@
 ﻿@using Sitecore.Feature.Doctor
+@using TemplatesDoctor = Sitecore.Feature.Doctor.Templates
+@using Sitecore.Feature.Doctor.Models
 @using Sitecore.Foundation.Alerts
 @using Sitecore.Foundation.Alerts.Extensions
 @using Sitecore.Foundation.SitecoreExtensions.Extensions
-@using Sitecore.Foundation.SitecoreExtensions.Repositories
-@model Sitecore.Mvc.Presentation.RenderingModel
 
-@if (!Model?.Item?.IsDerived(Templates.Doctor.ID) ?? true)
+@model IEnumerable< Doctor >
+
+          <div class="container">
+              <div class="form-block-elenco-alfabetico">
+                  <h4>
+                      Ricerca alfabetica per medico
+                      <br>
+                      Ricerca per visite specialistiche
+                  </h4>
+@using (Html.BeginRouteForm(Sitecore.Mvc.Configuration.MvcSettings.SitecoreRouteName, FormMethod.Post))
 {
-  @Html.PageEditorError(AlertTexts.InvalidDataSourceTemplate(Templates.Doctor.ID), AlertTexts.InvalidDataSourceTemplateFriendlyMessage, Model.Item?.ID, Model.Rendering.Item?.ID)
-  return;
+                  <div class="container-cell-lettere-sepin">
+                      <input type="submit" name="q" value="A" />
+                      <input type="submit" name="q" value="B" />
+                      <input type="submit" name="q" value="C" />
+                      <input type="submit" name="q" value="D" />
+                      <input type="submit" name="q" value="E" />
+                      <input type="submit" name="q" value="F" />
+                      <input type="submit" name="q" value="G" />
+                      <input type="submit" name="q" value="H" />
+                      <input type="submit" name="q" value="I" />
+                      <input type="submit" name="q" value="L" />
+                      <input type="submit" name="q" value="M" />
+                      <input type="submit" name="q" value="N" />
+                      <input type="submit" name="q" value="O" />
+                      <input type="submit" name="q" value="P" />
+                      <input type="submit" name="q" value="Q" />
+                      <input type="submit" name="q" value="R" />
+                      <input type="submit" name="q" value="S" />
+                      <input type="submit" name="q" value="T" />
+                      <input type="submit" name="q" value="U" />
+                      <input type="submit" name="q" value="V" />
+                      <input type="submit" name="q" value="Z" />
+                     </div>
+                  <div class="form_wrapper search_form margDx30">
+                      <input type="text" value="search" class="search" name="free" id="txtSearch" onfocus="Clear(this)" />
+                      <input class="btn-alt find" type="submit" value="Cerca" />
+                      <input type="hidden" name="iditem" value="@Sitecore.Context.Item.ID.Guid.ToString()" />
+                      
+                  </div>
+                  <div id="searchResults">
+
+                  </div>
 }
+              </div>
+          </div>
 
-<div class="container">
-  @Html.Sitecore().ImageField(Templates.Person.Fields.Picture, Model.Item, mw: 300, cssClass: "img-responsive img-circle center-block")
-  <h1 class="text-center">
-    @Model.Item.Field(Templates.Doctor.Fields.Name)
-    <br>
-    <small>
-      <span class="label label-default">@Model.Item.Field(Templates.Doctor.Fields.Title)</span>
-    </small>
-    <br>
-    <small>
-      @Model.Item.Field(Templates.Doctor.Fields.Summary)
-    </small>
-  </h1>
+
+    <ul class="block-grid-md-4 block-grid-sm-3 block-grid-xs-1">
+        @foreach (Doctor item in Model)
+        {
+            <li>
+
+                    <div class="panel-body text-center">
+                        <a href="@item.ItemURL" class="btn btn-default">
+                            <label>@item.Title @item.Specialist</label>
+                            </a>
+                            <h4>
+                                @item.Name  @item.Surname
+                            </h4>
 </div>
+                   
 
-
+            </li>
+        }
+    </ul>

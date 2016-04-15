@@ -20,7 +20,6 @@ namespace Sitecore.Feature.Doctor.Models
             Picture = item[Templates.Person.Fields.Picture];
             Summary = item[Templates.Person.Fields.Summary];
             Surname = item[Templates.Person.Fields.Surname];
-            Biography = item[Templates.Doctor.Fields.Biography];
             Specialist = item[Templates.Doctor.Fields.Specialist];
             Activities = item[Templates.Doctor.Fields.Activities]; 
             Hospital = item[Templates.Doctor.Fields.Hospital];
@@ -32,7 +31,6 @@ namespace Sitecore.Feature.Doctor.Models
         public string Picture { get; set; }
         public string Summary { get; set; }
         public string Surname { get; set; }
-        public string Biography { get; set; }
         public string Specialist { get; set; }
         public string Activities { get; set; }
         public string Hospital { get; set; }

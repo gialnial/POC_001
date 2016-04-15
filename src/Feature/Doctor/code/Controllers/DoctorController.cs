@@ -26,10 +26,14 @@ namespace Sitecore.Feature.Doctor.Controllers
             return this.View("DoctorSearch", new List<Models.Doctor>());
         }
         [HttpPost]
-        public ViewResult DoctorSearch(string q)
+        public ViewResult DoctorSearch(string q,string free)
         {
+            IEnumerable<Models.Doctor> doctorList;
             DoctorsRepository repository = (DoctorsRepository)doctorRepositoryFactory.Create(Context.Database.GetItem(Templates.DoctorList.ID));
-            var doctorList = repository.searchByLetter(q);
+            if(!string.IsNullOrEmpty(q))
+                doctorList = repository.searchByLetter(q);
+            else
+                doctorList = repository.searchByfreeText(free);
             return View("DoctorSearch", doctorList);
         }
 

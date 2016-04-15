@@ -7,5 +7,6 @@
   {
     IEnumerable<Models.Doctor> Get();
     IEnumerable<Models.Doctor> searchByLetter(string letter);
-  }
+        IEnumerable<Models.Doctor> searchByfreeText(string letter);
+    }
 }

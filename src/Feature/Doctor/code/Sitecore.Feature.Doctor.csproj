@@ -129,6 +129,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\DoctorController.cs" />
+    <Compile Include="Indexing\DoctorIndexContentProvider.cs" />
     <Compile Include="Models\Doctor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\IDoctorsRepository.cs" />
@@ -136,6 +137,7 @@
     <Compile Include="Repositories\DoctorsRepository.cs" />
     <Compile Include="Repositories\DoctorsRepositoryFactory.cs" />
     <Compile Include="Repositories\DoctorsSearchSettingsRepository.cs" />
+    <Compile Include="Repositories\QueryRepository.cs" />
     <Compile Include="Templates.cs" />
   </ItemGroup>
   <ItemGroup>

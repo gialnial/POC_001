@@ -39,9 +39,17 @@
         public IEnumerable<Models.Doctor> searchByLetter(string letter)
         {
             var searchService = this.searchServiceRepository.Get();
+  
             searchService.Settings.Root = this.ContextItem;
-            //IQuery query = new Que
-            var results = searchService.FindAll();
+            var results = searchService.FindAll().Results.Where(i => i.Item[Templates.Person.Fields.Surname].StartsWith(letter)).Select(x => new Models.Doctor(x.Item));
+            return results;
+        }
+
+        public IEnumerable<Models.Doctor> searchByfreeText(string text)
+        {
+            var searchService = this.searchServiceRepository.Get();
+            searchService.Settings.Root = this.ContextItem;
+            var results = searchService.Search(QueryRepository.Get(text));
             return results.Results.Select(x => new Models.Doctor(x.Item));
         }
     }

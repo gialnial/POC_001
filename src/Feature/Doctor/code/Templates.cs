@@ -17,12 +17,10 @@
        
         public struct Fields
             {
-                public static readonly ID Biography = new ID("{62620B2F-C2FB-40C7-A2E9-D2CB6E2DD908}");
                 public static readonly ID Specialist = new ID("{8BF213FD-9EA2-4E8C-B191-A6678E3C3478}");
                 public static readonly ID Activities = new ID("{41252090-9448-4BE1-A45B-782ED1427E70}");
                 public static readonly ID Hospital = new ID("{3CADBB1A-E9C9-4EEA-B9ED-3C2E0B25DDBB}");
 
-                public static string Biography_FieldName = "Biography";
                 public static string Specialist_FieldName = "Specialist";
                 public static string Activities_FieldName = "Activities";
                 public static string Hospital_FieldName = "Hospital";

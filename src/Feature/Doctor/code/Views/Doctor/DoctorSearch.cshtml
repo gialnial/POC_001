@@ -11,8 +11,7 @@
               <div class="form-block-elenco-alfabetico">
                   <h4>
                       Ricerca alfabetica per medico
-                      <br>
-                      Ricerca per visite specialistiche
+
                   </h4>
 @using (Html.BeginRouteForm(Sitecore.Mvc.Configuration.MvcSettings.SitecoreRouteName, FormMethod.Post))
 {
@@ -39,8 +38,10 @@
                       <input type="submit" name="q" value="V" />
                       <input type="submit" name="q" value="Z" />
                      </div>
+                     <br />
+                     <br />
                   <div class="form_wrapper search_form margDx30">
-                      <input type="text" value="search" class="search" name="free" id="txtSearch" onfocus="Clear(this)" />
+                      <input type="text" value="" class="search" name="free" id="txtSearch"  />
                       <input class="btn-alt find" type="submit" value="Cerca" />
                       <input type="hidden" name="iditem" value="@Sitecore.Context.Item.ID.Guid.ToString()" />
                       
@@ -51,13 +52,13 @@
 }
               </div>
           </div>
-
+<br />
+<br />
 
     <ul class="block-grid-md-4 block-grid-sm-3 block-grid-xs-1">
         @foreach (Doctor item in Model)
         {
             <li>
-
                     <div class="panel-body text-center">
                         <a href="@item.ItemURL" class="btn btn-default">
                             <label>@item.Title @item.Specialist</label>
@@ -66,8 +67,6 @@
                                 @item.Name  @item.Surname
                             </h4>
 </div>
-                   
-
             </li>
         }
     </ul>

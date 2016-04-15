@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doctor", "Doctor", "{DE78E2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Feature.Doctor", "src\Feature\Doctor\code\Sitecore.Feature.Doctor.csproj", "{452C63B5-6019-4EC2-9A9B-9B5DD3241485}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sc.Fca.Poc.Migration", "src\Feature\Doctor\migration\Sc.Fca.Poc.Migration\Sc.Fca.Poc.Migration.csproj", "{11811D85-76FB-4489-AEA2-EEFAA9FDF8BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{452C63B5-6019-4EC2-9A9B-9B5DD3241485}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{452C63B5-6019-4EC2-9A9B-9B5DD3241485}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{452C63B5-6019-4EC2-9A9B-9B5DD3241485}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11811D85-76FB-4489-AEA2-EEFAA9FDF8BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11811D85-76FB-4489-AEA2-EEFAA9FDF8BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11811D85-76FB-4489-AEA2-EEFAA9FDF8BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11811D85-76FB-4489-AEA2-EEFAA9FDF8BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,5 +44,6 @@ Global
 		{54811E96-9BB8-4243-9294-2816EBFB5489} = {E57AF963-2157-4BEC-8C7F-70768C8A3A9B}
 		{DE78E253-BDF9-4768-AB57-90EF58E91DE0} = {96475A21-72F5-4823-846A-CA2CF2221D7E}
 		{452C63B5-6019-4EC2-9A9B-9B5DD3241485} = {DE78E253-BDF9-4768-AB57-90EF58E91DE0}
+		{11811D85-76FB-4489-AEA2-EEFAA9FDF8BE} = {DE78E253-BDF9-4768-AB57-90EF58E91DE0}
 	EndGlobalSection
 EndGlobal
